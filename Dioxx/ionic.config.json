@@ -1,0 +1,7 @@
+{
+  "name": "Dioxx",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
