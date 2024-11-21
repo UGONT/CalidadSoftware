@@ -12,4 +12,11 @@ export class InicioPage implements OnInit {
   ngOnInit() {
   }
 
+  onButtonClick(buttonNumber: number) {
+    console.log('Botón', buttonNumber, 'presionado');
+    // Aquí puedes agregar la lógica para cada botón
+  }
+
+  
+
 }

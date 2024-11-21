@@ -1,0 +1,19 @@
+button {
+    font-size: 24px; /* Tamaño de texto grande */
+    height: 120px; /* Altura grande para los botones */
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* Dos filas de tamaño igual */
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas de tamaño igual */
+    grid-gap: 10px; /* Espacio entre botones */
+    padding: 20px; /* Margen de la cuadrícula */
+    height: 100vh; /* La altura debe ocupar toda la pantalla */
+  }
+  
+  .big-button {
+    font-size: 28px; /* Tamaño de texto aún más grande */
+    height: 100%; /* Ocupa todo el espacio disponible */
+  }
+  

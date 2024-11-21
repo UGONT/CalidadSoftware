@@ -15,10 +15,7 @@ const routes: Routes = [
     path: 'inicio',
     loadChildren: () => import('./Access/inicio/inicio.module').then( m => m.InicioPageModule)
   },
-  {
-    path: 'tabs',
-    loadChildren: () => import('./Access/tabs/tabs.module').then( m => m.TabsPageModule)
-  },
+ 
 ];
 
 @NgModule({
