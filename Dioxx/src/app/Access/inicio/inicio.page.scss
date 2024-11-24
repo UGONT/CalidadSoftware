@@ -1,3 +1,40 @@
+/* Evitar scroll */
+ion-content {
+  overflow: hidden; /* Bloquea scroll */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contenedor principal fijo */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ocupa toda la pantalla */
+  justify-content: space-between; /* Espacia los elementos uniformemente */
+}
+
+/* Contenedor superior dividido */
+.top-container {
+  display: flex;
+  height: 20%; /* Ocupa el 20% de la altura */
+}
+
+.left-section {
+  flex: 3; /* Proporción 3/4 */
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-section {
+  flex: 1; /* Proporción 1/4 */
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 button {
     font-size: 24px; /* Tamaño de texto grande */
     height: 120px; /* Altura grande para los botones */
@@ -5,11 +42,11 @@ button {
   
   .button-grid {
     display: grid;
-    grid-template-rows: repeat(3, 1fr); /* Dos filas de tamaño igual */
-    grid-template-columns: repeat(2, 1fr); /* Tres columnas de tamaño igual */
+    grid-template-rows: repeat(3, 1fr); /* Tres filas de tamaño igual */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de tamaño igual */
     grid-gap: 10px; /* Espacio entre botones */
     padding: 20px; /* Margen de la cuadrícula */
-    height: 100vh; /* La altura debe ocupar toda la pantalla */
+    height: 85vh; /* La altura debe ocupar toda la pantalla */
   }
   
   .big-button {
