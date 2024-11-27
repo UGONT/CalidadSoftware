@@ -54,3 +54,35 @@ button {
     height: 100%; /* Ocupa todo el espacio disponible */
   }
   
+.custom-modal {
+  --width: 90%;
+  --height: 50%;
+  --border-radius: 12px;
+  --background: white;
+  --box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  --margin-top: 20px; /* Asegúrate de que no esté fuera de la pantalla */
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%; /* Asegura que ocupe todo el espacio disponible */
+  padding: 16px;
+}
+
+.large-button {
+  font-size: 1.5rem; /* Tamaño de texto grande */
+  height: 90px; /* Altura considerable */
+  margin: 8px 0; /* Separación entre botones */
+  --border-radius: 12px; /* Esquinas redondeadas */
+}
+
+
+.modal-content p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+

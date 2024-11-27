@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Alarmas Programadas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="alarms-container">
+    <!-- Alarma 1 -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Alarma: Medicamento Mañana
+          <ion-button size="small" fill="outline" color="tertiary">
+            <ion-icon name="notifications-outline"></ion-icon>
+          </ion-button>
+        </ion-card-title>
+
+      </ion-card-header>
+      <ion-card-content>
+        <p><strong>Hora:</strong> 8:00 AM</p>
+        <p><strong>Fecha:</strong> Lunes, Miércoles, Viernes</p>
+        <p><strong>Medicamento:</strong> Paracetamol</p>
+        <p><strong>Dosis:</strong> 1 tableta</p>
+
+
+      </ion-card-content>
+    </ion-card>
+
+    <!-- Alarma 2 -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Alarma: Medicamento Tarde
+          <ion-button size="small" fill="outline" color="tertiary">
+            <ion-icon name="notifications-outline"></ion-icon>
+          </ion-button>
+
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p><strong>Hora:</strong> 2:00 PM</p>
+        <p><strong>Fecha:</strong> Todos los días</p>
+        <p><strong>Medicamento:</strong> Omeprazol</p>
+        <p><strong>Dosis:</strong> 1 cápsula</p>
+      </ion-card-content>
+    </ion-card>
+
+    <!-- Alarma 3 -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Alarma: Medicamento Noche
+          <ion-button size="small" fill="outline" color="tertiary">
+            <ion-icon name="notifications-outline"></ion-icon>
+          </ion-button>
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p><strong>Hora:</strong> 9:00 PM</p>
+        <p><strong>Fecha:</strong> Martes y Jueves</p>
+        <p><strong>Medicamento:</strong> Aspirina</p>
+        <p><strong>Dosis:</strong> 2 tabletas</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div>
+    <ion-button expand="block" class="large-button" color="primary" [routerLink]="['/inicio']">
+      Volver
+    </ion-button>
+  </div>
+
+
+</ion-content>

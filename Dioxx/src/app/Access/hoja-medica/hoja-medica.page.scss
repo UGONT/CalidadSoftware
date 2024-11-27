@@ -1,0 +1,48 @@
+.recetas-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.receta-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+.receta-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.receta-card p {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    /* Mayor espacio entre los párrafos */
+    color: #555;
+    /* Color de texto más oscuro para mayor contraste */
+}
+
+.receta-card strong {
+    font-weight: bold;
+    color: #222;
+    /* Aseguramos que las etiquetas fuertes sean más oscuras */
+}
+
+ion-content {
+    padding: 10px;
+}
+
+.footer-button {
+    height: 90px; /* Altura considerable */
+    border-radius: 12px; /* Bordes redondeados */
+    margin: 20px 0; /* Margen en la parte superior e inferior */
+    
+    font-size: 1.2rem; /* Tamaño de texto más grande */
+}
+  

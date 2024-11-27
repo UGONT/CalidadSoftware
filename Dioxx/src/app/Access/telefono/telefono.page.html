@@ -1,0 +1,40 @@
+<ion-content>
+  <div class="phone-number-display">
+    <!-- Mostrar el número marcado -->
+    <p id="display-number">#</p>
+  </div>
+
+  <!-- Contenedor fijo para el teclado -->
+  <div class="numeric-keypad">
+    <div class="keypad-row">
+      <ion-button expand="block" (click)="addDigit(1)">1</ion-button>
+      <ion-button expand="block" (click)="addDigit(2)">2</ion-button>
+      <ion-button expand="block" (click)="addDigit(3)">3</ion-button>
+    </div>
+    <div class="keypad-row">
+      <ion-button expand="block" (click)="addDigit(4)">4</ion-button>
+      <ion-button expand="block" (click)="addDigit(5)">5</ion-button>
+      <ion-button expand="block" (click)="addDigit(6)">6</ion-button>
+    </div>
+    <div class="keypad-row">
+      <ion-button expand="block" (click)="addDigit(7)">7</ion-button>
+      <ion-button expand="block" (click)="addDigit(8)">8</ion-button>
+      <ion-button expand="block" (click)="addDigit(9)">9</ion-button>
+    </div>
+    <div class="keypad-row">
+      <ion-button expand="block" (click)="addDigit(0)">0</ion-button>
+      <ion-button expand="block" (click)="clearNumber()">C</ion-button>
+      <ion-button expand="block" (click)="makeCall()">
+        <ion-icon name="call-outline"></ion-icon> [<
+      </ion-button>
+      
+    </div>
+
+    <!-- Botón Volver -->
+    <div>
+      <ion-button expand="block" color="primary" class="large-button" [routerLink]="['/inicio']">
+        Volver
+      </ion-button>
+    </div>
+  </div>
+</ion-content>

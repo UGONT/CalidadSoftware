@@ -1,0 +1,39 @@
+
+  /* Contenedor principal para los datos */
+.data-display {
+    display: flex;
+    flex-direction: column; /* Organización vertical */
+    gap: 12px; /* Espacio entre elementos */
+    padding: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Caja individual para cada dato */
+  .data-box {
+    display: flex;
+    flex-direction: column; /* Etiqueta y valor en línea vertical */
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la etiqueta y el valor */
+  .label {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 4px;
+  }
+  
+  .value {
+    font-size: 14px;
+    color: #555555;
+  }
+
+.large-button {
+  font-size: 1.5rem; /* Tamaño de texto grande */
+  height: 90px; /* Altura considerable */
+  margin: 13px 0; /* Separación entre botones */
+  --border-radius: 12px; /* Esquinas redondeadas */
+}

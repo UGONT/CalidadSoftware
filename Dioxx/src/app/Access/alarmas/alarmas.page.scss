@@ -1,0 +1,32 @@
+.alarms-container {
+    display: flex;
+    flex-direction: column; /* Coloca las alarmas en una columna */
+    gap: 16px; /* Espaciado entre alarmas */
+    padding: 16px; /* Espaciado interno */
+  }
+  
+  ion-card {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    border-radius: 12px; /* Esquinas redondeadas */
+    
+  }
+  
+  ion-card-title {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  ion-card-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+.large-button {
+  font-size: 1.5rem; /* Tamaño de texto grande */
+  height: 90px; /* Altura considerable */
+  margin: 8px 0; /* Separación entre botones */
+  --border-radius: 12px; /* Esquinas redondeadas */
+}
+  

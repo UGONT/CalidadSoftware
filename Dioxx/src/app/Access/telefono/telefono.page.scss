@@ -1,0 +1,57 @@
+.phone-number-display {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.numeric-keypad {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.keypad-row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+ion-button {
+    font-size: 3rem;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 0;
+    --background: #f1f1f1;
+}
+
+ion-button:hover {
+    --background: #e0e0e0;
+}
+
+ion-button:focus {
+    --background: #d0d0d0;
+}
+
+.large-button {
+    font-size: 1.5rem;
+    /* Tamaño de texto grande */
+    height: 90px;
+    /* Altura considerable */
+    margin: 8px 0;
+    /* Separación entre botones */
+    --border-radius: 12px;
+    /* Esquinas redondeadas */
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    padding: 0;
+    /* Elimina el relleno extra */
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+}
+

@@ -8,13 +8,34 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'inicio',
     pathMatch: 'full'
   },
   {
     path: 'inicio',
     loadChildren: () => import('./Access/inicio/inicio.module').then( m => m.InicioPageModule)
   },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./Access/perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
+  {
+    path: 'form-adulto',
+    loadChildren: () => import('./Access/form-adulto/form-adulto.module').then( m => m.FormAdultoPageModule)
+  },  {
+    path: 'alarmas',
+    loadChildren: () => import('./Access/alarmas/alarmas.module').then( m => m.AlarmasPageModule)
+  },
+  {
+    path: 'telefono',
+    loadChildren: () => import('./Access/telefono/telefono.module').then( m => m.TelefonoPageModule)
+  },
+  {
+    path: 'hoja-medica',
+    loadChildren: () => import('./Access/hoja-medica/hoja-medica.module').then( m => m.HojaMedicaPageModule)
+  },
+
+
  
 ];
 

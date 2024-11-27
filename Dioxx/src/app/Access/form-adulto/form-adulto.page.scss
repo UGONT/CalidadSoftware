@@ -1,0 +1,31 @@
+.large-button {
+    font-size: 1.5rem; /* Tamaño de texto grande */
+    height: 90px; /* Altura considerable */
+    margin: 13px 0; /* Separación entre botones */
+    --border-radius: 12px; /* Esquinas redondeadas */
+  }
+
+/* Contenedor de datos */
+.data-display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 10px;
+    padding: 16px;
+    background-color: #f7f7f7;
+  }
+  
+  .data-box {
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 8px 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Formulario */
+  .form-container {
+    padding: 16px;
+  }
+  
+  
+  

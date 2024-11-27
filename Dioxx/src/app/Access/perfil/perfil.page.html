@@ -1,0 +1,13 @@
+<ion-content>
+  <div class="data-display">
+    <div class="data-box" *ngFor="let item of displayData">
+      <strong class="label">{{ item.label }}:</strong>
+      <span class="value">{{ item.value || 'N/A' }}</span>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <ion-button expand="block" class="large-button" routerLink="/form-adulto">Ir al Formulario</ion-button>
+    <ion-button expand="block" class="large-button" routerLink="/inicio">Ir al Inicio</ion-button>
+  </div>
+</ion-content>

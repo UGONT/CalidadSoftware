@@ -1,0 +1,38 @@
+<ion-content>
+  <form class="form-container" (ngSubmit)="onSubmit()">
+    <ion-item>
+      <ion-label position="stacked">Nombres</ion-label>
+      <ion-input [(ngModel)]="formData.nombres" name="nombres" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Apellido Paterno</ion-label>
+      <ion-input [(ngModel)]="formData.apellidoPaterno" name="apellidoPaterno" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Apellido Materno</ion-label>
+      <ion-input [(ngModel)]="formData.apellidoMaterno" name="apellidoMaterno" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Edad</ion-label>
+      <ion-input type="number" [(ngModel)]="formData.edad" name="edad" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Cuidador Asignado</ion-label>
+      <ion-input [(ngModel)]="formData.cuidadorAsignado" name="cuidadorAsignado" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Dirección del Recinto</ion-label>
+      <ion-input name="direccionRecinto" required></ion-input>
+    </ion-item>
+
+    <div class="button-container">
+      <ion-button expand="full" class="large-button" type="submit">Guardar</ion-button>
+    </div>
+  </form>
+</ion-content>
+

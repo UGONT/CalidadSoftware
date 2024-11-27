@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioPage implements OnInit {
 
+  isModalOpen = false;
+  
   constructor() { }
 
   ngOnInit() {
@@ -17,6 +19,22 @@ export class InicioPage implements OnInit {
     // Aquí puedes agregar la lógica para cada botón
   }
 
+  openModal() {
+    this.isModalOpen = true;
+  }
+
+  closeModal() {
+    this.isModalOpen = false;
+  }
+
+  onOptionSelected(option: string) {
+    console.log(`Seleccionaste: ${option}`);
+    this.closeModal(); // Cierra el modal después de seleccionar
+  }
+
+  /* 
+    nombre completo, direccion del recinto(debe daro error, no mostrar el dato aun ingresado), edad, cuidador asignado 
   
+  */
 
 }
